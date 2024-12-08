@@ -359,7 +359,7 @@ void InitialiseApplication(int pArgc, char** pArgv) {
     }
 
     srand(time(NULL));
-    BrV1dbBeginWrapper_Float();
+    BrV1dbBeginWrapper();
     CreateStainlessClasses();
     InitWobbleStuff();
     LoadGeneralParameters();
